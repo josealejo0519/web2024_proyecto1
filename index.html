@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repositorio Central</title>
+    <title>Formulario - Hoja de Vida </title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza con un archivo CSS para el estilo -->
 </head>
 <body>
-    
+    <!-- Menú de Navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#formacion">Formación Académica</a></li>
+                <li><a href="#experiencia">Experiencia Laboral</a></li>
+                <li><a href="#redes-sociales">Redes Sociales</a></li>
+                <li><a href="#contacto">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Formación Académica -->
+    <section id="formacion">
+        <h2>Formación Académica</h2>
+        <table>
+            <tr>
+                <th>Institución</th>
+                <th>Título</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <!-- Agrega más filas según sea necesario -->
+        </table>
+    </section>
+
+    <!-- Sección de Experiencia Laboral -->
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <table>
+            <tr>
+                <th>Empresa</th>
+                <th>Posición</th>
+                <th>Periodo</th>
+            </tr>
+            <tr>
+                <td>Retail Store</td>
+                <td>Asesor de Ventas</td>
+                <td>Hasta 2020</td>
+            </tr>
+            <!-- Agrega más filas según sea necesario -->
+        </table>
+    </section>
+
+    <!-- Sección de Redes Sociales -->
+    <section id="redes-sociales">
+        <h2>Redes Sociales</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/josealejandrou" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/josealejandrou" target="_blank">GitHub</a></li>
+            <!-- Agrega enlaces adicionales según sea necesario -->
+        </ul>
+    </section>
+
+    <!-- Pie de Página - Formulario de Contacto -->
+    <footer id="contacto">
+        <h2>Contáctenos</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
 </body>
 </html>
