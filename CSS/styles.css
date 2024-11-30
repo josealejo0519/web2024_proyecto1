@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family:'Times New Roman', Times, serif, sans-serif;
-    background-color: #e5e5ee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #acacc3;
     padding: 20px;
 }
 
@@ -21,13 +21,13 @@ body {
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     text-align: center;
     margin-bottom: 20px;
 }
 
 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 0.5px;
 }
 
 label {
@@ -47,10 +47,18 @@ button {
     padding: 10px 20px;
     background-color: #34577d;
     color: white;
-    border: none;
-    border-radius: 4px;
+    border:none;
+    border-radius: 20px;
     cursor: pointer;
     width: 100%;
+    background-color: #34577d; 
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.1s ease, transform 0.2s ease;
+}
+
+.section button {
+    border-radius: 8px; 
 }
 
 button:hover {
@@ -59,28 +67,14 @@ button:hover {
 
 p {
     margin-top: 10px;
-    font-weight: bold;
+    font-weight: normal;
     color: #333;
+    margin-left: 0.5px;
+    text-indent: 30px
 }
 
 .section {
     margin-bottom: 30px;
-}
-
-/* Estilo para el botón */
-#btnGracias {
-    background-color: #34577d; /* Verde */
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-#btnGracias:hover {
-    background-color: #6193c9;
 }
 
 /* Estilo para los globos */
