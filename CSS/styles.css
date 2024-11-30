@@ -66,3 +66,39 @@ p {
 .section {
     margin-bottom: 30px;
 }
+
+/* Estilo para el botón */
+#btnGracias {
+    background-color: #34577d; /* Verde */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btnGracias:hover {
+    background-color: #6193c9;
+}
+
+/* Estilo para los globos */
+.globo {
+    position: absolute;
+    font-size: 40px;
+    animation: flotar 3s linear infinite;
+    opacity: 0.8;
+}
+
+/* Animación para hacer flotar los globos */
+@keyframes flotar {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+}
